@@ -1,0 +1,106 @@
+/* Import Google Font Montserrat for lack of a better font. */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1d3557;
+    color: white;
+    padding: 1.5rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.dog-fetcher {
+    margin-bottom: 2rem;
+}
+
+select, button {
+    padding: 0.6rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 2px solid #1d3557;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+select {
+    background-color: white;
+    color: #1d3557;
+}
+
+select:hover, button:hover {
+    border-color: #457b9d;
+}
+
+button {
+    background-color: #457b9d;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d3557;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+
+#dogImageDisplay {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 4px solid #457b9d;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dog-image:hover {
+    transform: scale(1.05);
+    border-color: #1d3557;
+}
+
+footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+footer a {
+    color: #457b9d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
